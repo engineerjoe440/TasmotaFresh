@@ -13,4 +13,258 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise J1
+U 1 1 603C0E99
+P 5000 4350
+F 0 "J1" H 5050 4667 50  0000 C CNN
+F 1 "ESP-01S" H 5050 4576 50  0000 C CNN
+F 2 "" H 5000 4350 50  0001 C CNN
+F 3 "~" H 5000 4350 50  0001 C CNN
+	1    5000 4350
+	1    0    0    -1  
+$EndComp
+Text Label 4800 4250 2    50   ~ 0
+GPIO1
+Text Label 5300 4250 0    50   ~ 0
+GND
+Text Label 4800 4350 2    50   ~ 0
+CH_PD-EN
+Text Label 4800 4450 2    50   ~ 0
+RST
+Text Label 4800 4550 2    50   ~ 0
+3V3
+Text Label 5300 4350 0    50   ~ 0
+GPIO2
+Text Label 5300 4450 0    50   ~ 0
+GPIO0
+Text Label 5300 4550 0    50   ~ 0
+GPIO3
+$Comp
+L Triac_Thyristor:TIC226 Q1
+U 1 1 603C2944
+P 7650 3850
+F 0 "Q1" H 7779 3896 50  0000 L CNN
+F 1 "HIGH" H 7779 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7850 3775 50  0001 L CIN
+F 3 "http://pdf.datasheetcatalog.com/datasheet/PowerInnovations/mXuqxvy.pdf" H 7650 3850 50  0001 L CNN
+	1    7650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Triac_Thyristor:TIC226 Q2
+U 1 1 603C3BA0
+P 7650 4350
+F 0 "Q2" H 7778 4396 50  0000 L CNN
+F 1 "MEDIUM" H 7778 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7850 4275 50  0001 L CIN
+F 3 "http://pdf.datasheetcatalog.com/datasheet/PowerInnovations/mXuqxvy.pdf" H 7650 4350 50  0001 L CNN
+	1    7650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Triac_Thyristor:TIC226 Q3
+U 1 1 603C3F76
+P 7650 4900
+F 0 "Q3" H 7778 4946 50  0000 L CNN
+F 1 "LOW" H 7778 4855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7850 4825 50  0001 L CIN
+F 3 "http://pdf.datasheetcatalog.com/datasheet/PowerInnovations/mXuqxvy.pdf" H 7650 4900 50  0001 L CNN
+	1    7650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3950 7500 3950
+Wire Wire Line
+	7050 5000 7500 5000
+$Comp
+L Device:R R1
+U 1 1 603CAB41
+P 7050 4100
+F 0 "R1" H 7120 4146 50  0000 L CNN
+F 1 "R" H 7120 4055 50  0000 L CNN
+F 2 "" V 6980 4100 50  0001 C CNN
+F 3 "~" H 7050 4100 50  0001 C CNN
+	1    7050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 603CB1AB
+P 7050 4850
+F 0 "R3" H 7120 4896 50  0000 L CNN
+F 1 "R" H 7120 4805 50  0000 L CNN
+F 2 "" V 6980 4850 50  0001 C CNN
+F 3 "~" H 7050 4850 50  0001 C CNN
+	1    7050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 603CB619
+P 7250 4450
+F 0 "R2" V 7043 4450 50  0000 C CNN
+F 1 "R" V 7134 4450 50  0000 C CNN
+F 2 "" V 7180 4450 50  0001 C CNN
+F 3 "~" H 7250 4450 50  0001 C CNN
+	1    7250 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 4350 7050 4250
+Wire Wire Line
+	7400 4450 7500 4450
+Wire Wire Line
+	7050 4700 7050 4550
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 603CCD5A
+P 8650 4500
+F 0 "J2" H 8730 4492 50  0000 L CNN
+F 1 "FAN" H 8730 4401 50  0000 L CNN
+F 2 "" H 8650 4500 50  0001 C CNN
+F 3 "~" H 8650 4500 50  0001 C CNN
+	1    8650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4500 8450 4500
+Wire Wire Line
+	7650 4000 8450 4000
+Wire Wire Line
+	8450 4000 8450 4400
+Wire Wire Line
+	7650 5100 7650 5050
+Wire Wire Line
+	7650 5100 8200 5100
+Wire Wire Line
+	8200 5100 8200 4600
+Wire Wire Line
+	8200 4600 8450 4600
+$Comp
+L Device:LED D3
+U 1 1 603DB2F3
+P 6750 3950
+F 0 "D3" V 6697 4028 50  0000 L CNN
+F 1 "LED" V 6788 4028 50  0000 L CNN
+F 2 "" H 6750 3950 50  0001 C CNN
+F 3 "~" H 6750 3950 50  0001 C CNN
+	1    6750 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 4100 6750 4550
+$Comp
+L Device:LED D2
+U 1 1 603E0043
+P 6400 3950
+F 0 "D2" V 6347 4028 50  0000 L CNN
+F 1 "LED" V 6438 4028 50  0000 L CNN
+F 2 "" H 6400 3950 50  0001 C CNN
+F 3 "~" H 6400 3950 50  0001 C CNN
+	1    6400 3950
+	0    1    1    0   
+$EndComp
+Connection ~ 6400 3800
+Wire Wire Line
+	6400 3800 6750 3800
+$Comp
+L Device:LED D1
+U 1 1 603E0C79
+P 6050 3950
+F 0 "D1" V 5997 4028 50  0000 L CNN
+F 1 "LED" V 6088 4028 50  0000 L CNN
+F 2 "" H 6050 3950 50  0001 C CNN
+F 3 "~" H 6050 3950 50  0001 C CNN
+	1    6050 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 4550 7050 4550
+Wire Wire Line
+	6050 4100 6050 4350
+Wire Wire Line
+	6050 4350 7050 4350
+Wire Wire Line
+	6400 4100 6400 4450
+Wire Wire Line
+	6400 4450 7100 4450
+$Comp
+L Device:R R4
+U 1 1 603EAC37
+P 5600 3800
+F 0 "R4" V 5393 3800 50  0000 C CNN
+F 1 "R" V 5484 3800 50  0000 C CNN
+F 2 "" V 5530 3800 50  0001 C CNN
+F 3 "~" H 5600 3800 50  0001 C CNN
+	1    5600 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 3800 6050 3800
+Connection ~ 6050 3800
+Wire Wire Line
+	6050 3800 6400 3800
+Wire Wire Line
+	5300 4350 6050 4350
+Connection ~ 6050 4350
+Wire Wire Line
+	5300 4450 6400 4450
+Connection ~ 6400 4450
+Wire Wire Line
+	5300 4550 6750 4550
+Connection ~ 6750 4550
+Wire Wire Line
+	5300 4250 5450 4250
+Wire Wire Line
+	5450 4250 5450 3800
+Wire Wire Line
+	4800 4250 4800 3800
+Wire Wire Line
+	4800 3800 5450 3800
+Connection ~ 5450 3800
+$Comp
+L power:LINE #PWR?
+U 1 1 60405C0C
+P 1750 3200
+F 0 "#PWR?" H 1750 3050 50  0001 C CNN
+F 1 "LINE" H 1767 3373 50  0000 C CNN
+F 2 "" H 1750 3200 50  0001 C CNN
+F 3 "" H 1750 3200 50  0001 C CNN
+	1    1750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:NEUT #PWR?
+U 1 1 60405F38
+P 1450 3200
+F 0 "#PWR?" H 1450 3050 50  0001 C CNN
+F 1 "NEUT" H 1467 3373 50  0000 C CNN
+F 2 "" H 1450 3200 50  0001 C CNN
+F 3 "" H 1450 3200 50  0001 C CNN
+	1    1450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3200 1450 5550
+Wire Wire Line
+	1450 5550 8450 5550
+Wire Wire Line
+	8450 5550 8450 4700
+Wire Wire Line
+	1750 3200 7450 3200
+Wire Wire Line
+	7650 3200 7650 3700
+Wire Wire Line
+	7650 4200 7450 4200
+Wire Wire Line
+	7450 4200 7450 3200
+Connection ~ 7450 3200
+Wire Wire Line
+	7450 3200 7650 3200
+Wire Wire Line
+	7650 4750 7450 4750
+Wire Wire Line
+	7450 4750 7450 4200
+Connection ~ 7450 4200
 $EndSCHEMATC
