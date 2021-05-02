@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TasmotaFresh)(type KiCad)(uri ${KIPRJMOD}/TasmotaFresh.pretty)(options "")(descr ""))
+)
