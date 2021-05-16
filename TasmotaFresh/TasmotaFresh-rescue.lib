@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# TasmotaFresh-rescue_C-Device
+# C-Device
 #
-DEF TasmotaFresh-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "TasmotaFresh-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_CP1-Device
+# CP1-Device
 #
-DEF TasmotaFresh-rescue_CP1-Device C 0 10 N N 1 F N
+DEF CP1-Device C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "TasmotaFresh-rescue_CP1-Device" 25 -100 50 H V L CNN
+F1 "CP1-Device" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -39,11 +39,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_Conn_01x02_Male-Connector
+# Conn_01x02_Male-Connector
 #
-DEF TasmotaFresh-rescue_Conn_01x02_Male-Connector J 0 40 Y N 1 F N
+DEF Conn_01x02_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "TasmotaFresh-rescue_Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
+F1 "Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -59,11 +59,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_Conn_01x04-Connector_Generic
+# Conn_01x04-Connector_Generic
 #
-DEF TasmotaFresh-rescue_Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "TasmotaFresh-rescue_Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F1 "Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -82,11 +82,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_Conn_02x04_Counter_Clockwise-Connector_Generic
+# Conn_02x04_Counter_Clockwise-Connector_Generic
 #
-DEF TasmotaFresh-rescue_Conn_02x04_Counter_Clockwise-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x04_Counter_Clockwise-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "TasmotaFresh-rescue_Conn_02x04_Counter_Clockwise-Connector_Generic" 50 -300 50 H V C CNN
+F1 "Conn_02x04_Counter_Clockwise-Connector_Generic" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -113,11 +113,11 @@ X Pin_8 8 300 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_D_Zener-Device
+# D_Zener-Device
 #
-DEF TasmotaFresh-rescue_D_Zener-Device D 0 40 N N 1 F N
+DEF D_Zener-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "TasmotaFresh-rescue_D_Zener-Device" 0 -100 50 H V C CNN
+F1 "D_Zener-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -135,11 +135,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_Fuse-Device
+# Fuse-Device
 #
-DEF TasmotaFresh-rescue_Fuse-Device F 0 0 N Y 1 F N
+DEF Fuse-Device F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "TasmotaFresh-rescue_Fuse-Device" -75 0 50 V V C CNN
+F1 "Fuse-Device" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -153,11 +153,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_LED-Device
+# LED-Device
 #
-DEF TasmotaFresh-rescue_LED-Device D 0 40 N N 1 F N
+DEF LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "TasmotaFresh-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -176,11 +176,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_LINE-power
+# LINE-power
 #
-DEF TasmotaFresh-rescue_LINE-power #PWR 0 0 Y Y 1 F P
+DEF LINE-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "TasmotaFresh-rescue_LINE-power" 0 150 50 H V C CNN
+F1 "LINE-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -190,11 +190,11 @@ X LINE 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_NEUT-power
+# NEUT-power
 #
-DEF TasmotaFresh-rescue_NEUT-power #PWR 0 0 Y Y 1 F P
+DEF NEUT-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "TasmotaFresh-rescue_NEUT-power" 0 150 50 H V C CNN
+F1 "NEUT-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -204,11 +204,11 @@ X NEUT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_R-Device
+# R-Device
 #
-DEF TasmotaFresh-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "TasmotaFresh-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -221,11 +221,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TasmotaFresh-rescue_TIC226-Triac_Thyristor
+# TIC226-Triac_Thyristor
 #
-DEF TasmotaFresh-rescue_TIC226-Triac_Thyristor Q 0 0 Y Y 1 F N
+DEF TIC226-Triac_Thyristor Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "TasmotaFresh-rescue_TIC226-Triac_Thyristor" 200 0 50 H V L CNN
+F1 "TIC226-Triac_Thyristor" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-220-3_Vertical" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -240,22 +240,6 @@ P 3 0 1 8 0 -50 50 50 100 -50 N
 X A1 1 0 -150 100 U 50 25 1 1 P
 X A2 2 0 150 100 D 50 25 1 1 P
 X G 3 -150 -100 100 R 50 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# TasmotaFresh_LD03-23B03R2
-#
-DEF TasmotaFresh_LD03-23B03R2 PS 0 40 Y Y 1 L N
-F0 "PS" -600 350 50 H V L BNN
-F1 "TasmotaFresh_LD03-23B03R2" -600 -400 50 H V L BNN
-F2 "CONV_LD03-23B03R2" -200 350 50 H I L BNN
-F3 "" -200 350 50 H I L BNN
-DRAW
-S -600 -300 600 300 0 0 10 f
-X AC(N) 1 -800 -200 200 R 40 40 0 0 I
-X AC(L) 2 -800 200 200 R 40 40 0 0 I
-X -VO 4 800 -200 200 L 40 40 0 0 O
-X +VO 5 800 200 200 L 40 40 0 0 O
 ENDDRAW
 ENDDEF
 #

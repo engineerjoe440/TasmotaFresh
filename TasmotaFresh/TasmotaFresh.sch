@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J1
+L TasmotaFresh-rescue:Conn_02x04_Counter_Clockwise-Connector_Generic J1
 U 1 1 603C0E99
 P 5850 4350
 F 0 "J1" H 5900 4667 50  0000 C CNN
@@ -41,7 +41,7 @@ GPIO0
 Text Label 6150 4550 0    50   ~ 0
 GPIO3
 $Comp
-L Triac_Thyristor:TIC226 Q1
+L TasmotaFresh-rescue:TIC226-Triac_Thyristor Q1
 U 1 1 603C2944
 P 8500 3850
 F 0 "Q1" H 8629 3896 50  0000 L CNN
@@ -52,7 +52,7 @@ F 3 "http://pdf.datasheetcatalog.com/datasheet/PowerInnovations/mXuqxvy.pdf" H 8
 	1    0    0    -1  
 $EndComp
 $Comp
-L Triac_Thyristor:TIC226 Q2
+L TasmotaFresh-rescue:TIC226-Triac_Thyristor Q2
 U 1 1 603C3BA0
 P 8500 4350
 F 0 "Q2" H 8628 4396 50  0000 L CNN
@@ -63,7 +63,7 @@ F 3 "http://pdf.datasheetcatalog.com/datasheet/PowerInnovations/mXuqxvy.pdf" H 8
 	1    0    0    -1  
 $EndComp
 $Comp
-L Triac_Thyristor:TIC226 Q3
+L TasmotaFresh-rescue:TIC226-Triac_Thyristor Q3
 U 1 1 603C3F76
 P 8500 4900
 F 0 "Q3" H 8628 4946 50  0000 L CNN
@@ -78,7 +78,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 5000 8350 5000
 $Comp
-L Device:R R1
+L TasmotaFresh-rescue:R-Device R1
 U 1 1 603CAB41
 P 7900 4100
 F 0 "R1" H 7970 4146 50  0000 L CNN
@@ -89,7 +89,7 @@ F 3 "~" H 7900 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L TasmotaFresh-rescue:R-Device R3
 U 1 1 603CB1AB
 P 7900 4850
 F 0 "R3" H 7970 4896 50  0000 L CNN
@@ -100,7 +100,7 @@ F 3 "~" H 7900 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L TasmotaFresh-rescue:R-Device R2
 U 1 1 603CB619
 P 8100 4450
 F 0 "R2" V 7893 4450 50  0000 C CNN
@@ -117,7 +117,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 4700 7900 4550
 $Comp
-L Connector_Generic:Conn_01x04 J2
+L TasmotaFresh-rescue:Conn_01x04-Connector_Generic J2
 U 1 1 603CCD5A
 P 9500 4500
 F 0 "J2" H 9580 4492 50  0000 L CNN
@@ -142,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 4600 9300 4600
 $Comp
-L Device:LED D3
+L TasmotaFresh-rescue:LED-Device D3
 U 1 1 603DB2F3
 P 7600 3950
 F 0 "D3" V 7547 4028 50  0000 L CNN
@@ -155,7 +155,7 @@ $EndComp
 Wire Wire Line
 	7600 4100 7600 4550
 $Comp
-L Device:LED D2
+L TasmotaFresh-rescue:LED-Device D2
 U 1 1 603E0043
 P 7250 3950
 F 0 "D2" V 7197 4028 50  0000 L CNN
@@ -169,7 +169,7 @@ Connection ~ 7250 3800
 Wire Wire Line
 	7250 3800 7600 3800
 $Comp
-L Device:LED D1
+L TasmotaFresh-rescue:LED-Device D1
 U 1 1 603E0C79
 P 6900 3950
 F 0 "D1" V 6847 4028 50  0000 L CNN
@@ -190,7 +190,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 4450 7950 4450
 $Comp
-L Device:R R4
+L TasmotaFresh-rescue:R-Device R4
 U 1 1 603EAC37
 P 6450 3800
 F 0 "R4" V 6243 3800 50  0000 C CNN
@@ -221,10 +221,10 @@ Wire Wire Line
 Wire Wire Line
 	5650 4250 5650 3800
 $Comp
-L power:LINE #PWR?
+L TasmotaFresh-rescue:LINE-power #PWR0101
 U 1 1 60405C0C
 P 1750 3200
-F 0 "#PWR?" H 1750 3050 50  0001 C CNN
+F 0 "#PWR0101" H 1750 3050 50  0001 C CNN
 F 1 "LINE" H 1767 3373 50  0000 C CNN
 F 2 "" H 1750 3200 50  0001 C CNN
 F 3 "" H 1750 3200 50  0001 C CNN
@@ -232,10 +232,10 @@ F 3 "" H 1750 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:NEUT #PWR?
+L TasmotaFresh-rescue:NEUT-power #PWR0102
 U 1 1 60405F38
 P 1450 3200
-F 0 "#PWR?" H 1450 3050 50  0001 C CNN
+F 0 "#PWR0102" H 1450 3050 50  0001 C CNN
 F 1 "NEUT" H 1467 3373 50  0000 C CNN
 F 2 "" H 1450 3200 50  0001 C CNN
 F 3 "" H 1450 3200 50  0001 C CNN
@@ -259,7 +259,7 @@ Wire Wire Line
 	8300 4750 8300 4200
 Connection ~ 8300 4200
 $Comp
-L Connector:Conn_01x02_Male J3
+L TasmotaFresh-rescue:Conn_01x02_Male-Connector J3
 U 1 1 608F8110
 P 5900 3550
 F 0 "J3" V 5962 3594 50  0000 L CNN
@@ -284,13 +284,13 @@ U 1 1 6090B44F
 P 2850 4400
 F 0 "PS1" H 2850 4867 50  0000 C CNN
 F 1 "LD03-23B03R2" H 2850 4776 50  0000 C CNN
-F 2 "CONV_LD03-23B03R2" H 2650 4750 50  0001 L BNN
+F 2 "TasmotaFresh:CONV_LD03-23B03R2" H 2650 4750 50  0001 L BNN
 F 3 "" H 2650 4750 50  0001 L BNN
 	1    2850 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L TasmotaFresh-rescue:R-Device R5
 U 1 1 6090E65F
 P 1900 4200
 F 0 "R5" V 1693 4200 50  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "~" H 1900 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R MOV1
+L TasmotaFresh-rescue:R-Device MOV1
 U 1 1 6090F719
 P 1750 4450
 F 0 "MOV1" H 1820 4496 50  0000 L CNN
@@ -312,7 +312,7 @@ F 3 "~" H 1750 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Fuse F1
+L TasmotaFresh-rescue:Fuse-Device F1
 U 1 1 6090FD5C
 P 1750 3650
 F 0 "F1" H 1810 3696 50  0000 L CNN
@@ -333,7 +333,7 @@ Connection ~ 1750 4200
 Wire Wire Line
 	1750 3500 1750 3200
 $Comp
-L Device:C C1
+L TasmotaFresh-rescue:C-Device C1
 U 1 1 60914AAB
 P 3650 4400
 F 0 "C1" H 3765 4446 50  0000 L CNN
@@ -344,7 +344,7 @@ F 3 "~" H 3650 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C2
+L TasmotaFresh-rescue:CP1-Device C2
 U 1 1 60915235
 P 3950 4400
 F 0 "C2" H 4065 4446 50  0000 L CNN
@@ -355,7 +355,7 @@ F 3 "~" H 3950 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener TVS1
+L TasmotaFresh-rescue:D_Zener-Device TVS1
 U 1 1 60916FFB
 P 4300 4400
 F 0 "TVS1" V 4254 4479 50  0000 L CNN
