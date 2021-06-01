@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name TasmotaFresh)(type KiCad)(uri ${KIPRJMOD}/TasmotaFresh.pretty)(options "")(descr ""))
+  (lib (name TasmoTree)(type KiCad)(uri /home/joestan/Documents/TasmoTree/TasmoTree/TasmoTree.pretty)(options "")(descr ""))
 )
